@@ -1,0 +1,12 @@
+{
+  "name": "app",
+  "version": "0.0.0",
+  "authors": [
+    "Haochuan Liu <haochuan.liu@gmail.com>"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "~2.1.4",
+    "materialize": "~0.96.1"
+  }
+}

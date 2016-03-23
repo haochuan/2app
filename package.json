@@ -1,17 +1,28 @@
 {
-  "name": "electro-start",
+  "name": "2app",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Convert Web to native app useing Electron",
+  "main": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Haochuan",
-  "license": "ISC",
-  "devDependencies": {
-    "electron-packager": "^4.1.2"
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:haochuan/2app.git"
   },
+  "author": "Haochuan Liu <haochuan.liu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haochuan/2app/issues"
+  },
+  "bin": {
+    "2app": "./bin/2app.js"
+  },
+  "homepage": "https://github.com/haochuan/2app#readme",
   "dependencies": {
-    "jquery": "^2.1.4"
+    "bluebird": "^3.1.1",
+    "commander": "^2.9.0",
+    "fs-extra": "^0.26.3",
+    "electron-packager": "^4.1.2"
   }
 }

@@ -13,12 +13,16 @@ if (fs.existsSync('./build/App.app')) {
 var opts = {
     dir: './',
     name: 'App',
-    platform: 'darwin',
+    platform: 'all',
     arch: 'x64',
-    version: '0.27.2',
+    version: 'v0.37.2',
     out: './build/.'
 };
 packager(opts, function done (err, appPath) {
     if (err) throw err;
     console.log("The app have been packaged successfully in: " + appPath);
 });
+
+// ia32, x64, all
+// linux, win32, darwin, mas, all
+// app-version

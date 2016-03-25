@@ -1,12 +1,3 @@
-/**
- *
- * 2app
- * 2016-03-23
- *
- * Haochuan Liu <haochuan.liu@gmail.com>
- * http://haochuan.io
- *
- */
 #! /usr/bin/env node
 
 var program = require('commander'),

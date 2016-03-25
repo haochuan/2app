@@ -1,0 +1,11 @@
+{
+  "name": "Example App",
+  "version": "1.0.0",
+  "description": "Example App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Haochuan Liu <haochuan.liu@gmail.com>",
+  "license": "MIT"
+}

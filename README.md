@@ -11,8 +11,17 @@ npm install 2app -g
 ## Usage
 
 ```
-2app [path of your src folder]
+2app [Command]
 ```
+
+Available Commands:
+* `create`
+* `pack [src path]`
+
+Example Usage:
+* Create a template file in your current directory: `2app create`
+* Pack a finished project into native app: `2app pack ./myProject`
+
 
 
 ## Contributing
@@ -33,4 +42,4 @@ TODO: Write credits
 
 ## License
 
-TODO: Write license
+This project is available under the MIT license. See LICENSE for details.

@@ -1,3 +1,12 @@
+/**
+ *
+ * 2app
+ * 2016-03-23
+ *
+ * Haochuan Liu <haochuan.liu@gmail.com>
+ * http://haochuan.io
+ *
+ */
 var app = require('app');  // Module to control application life.
 var BrowserWindow = require('browser-window');  // Module to create native browser window.
 var Menu = require('menu');

@@ -7,7 +7,7 @@
  * http://haochuan.io
  *
  */
-
+#! /usr/bin/env node
 
 var program = require('commander'),
     create = require('../lib/create'),

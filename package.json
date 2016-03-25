@@ -1,6 +1,6 @@
 {
   "name": "2app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert Web to native app useing Electron",
   "main": "",
   "scripts": {

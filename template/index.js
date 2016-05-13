@@ -10,8 +10,9 @@
 var electron = require('electron'); 
 var app = electron.app;  // Module to control application life.
 var BrowserWindow = electron.BrowserWindow;  // Module to create native browser window.
-var Menu = require('menu');
-var MenuItem = require('menu-item');
+var remote = electron.remote;
+var Menu = remote.Menu;
+var MenuItem = remote.MenuItem;
 
 // Report crashes to our server.
 require('crash-reporter').start();

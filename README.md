@@ -1,6 +1,6 @@
 # 2app
 
-Convert web projects into native desktop apps for MacOSX, Linux and Windows useing Electron.
+Convert web projects into native desktop apps for MacOSX, Linux and Windows using Electron.
 
 ## Installation
 
